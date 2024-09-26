@@ -38,24 +38,33 @@
 								
 							<div class="form-group">
 								<label>name</label>
-								<input type="text" class="form-control" name="name" />
+								<input type="text" class="form-control" name="name" required/>
 							</div>
 							<div class="form-group">
 								<label>Date of Birth</label>
-								<input type="text" class="form-control" name="dob" />
+								<input type="date" class="form-control" name="dob" required/>
 							</div>
 							<div class="form-group">
 								<label>Phone</label>
-								<input type="text" class="form-control" name="phone" />
+								<input type="text" class="form-control" name="phone" required/>
 							</div>
 							<div class="form-group">
 								<label>Assurances type</label>
-								<input type="text" class="form-control" name="assurances" />
+								<input type="text" class="form-control" name="assurances" required/>
 							</div>
 							<div class="form-group">
 								<label>Agency</label>
-								<input type="text" class="form-control" name="agency" />
+								<!--input type="text" class="form-control" name="agency" required/-->
+								<select  name="agency" class="form-group">
+									<option value="INTIA-Daoula">INTIA-Daoula</option>
+									<option value="INTIA-Yaounde">INTIA-Yaounde</option>
+								</select>
 							</div>
+
+
+							
+						
+							
 						
 						
 						
