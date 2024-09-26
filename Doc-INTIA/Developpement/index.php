@@ -8,7 +8,7 @@
 	
 <body>
 	<nav class="navbar navbar-default">
-		<center><h4>Welcome to AFREETECH ASSURANCES</h4></center>
+		<center><h4>Welcome to INTIA ASSURANCES</h4></center>
 	
 		<div class="container-fluid">
 			
@@ -55,7 +55,7 @@
 							<div class="form-group">
 								<label>Agency</label>
 								<!--input type="text" class="form-control" name="agency" required/-->
-								<select  name="agency" class="form-group">
+								<select  name="agency" >
 									<option value="INTIA-Daoula">INTIA-Daoula</option>
 									<option value="INTIA-Yaounde">INTIA-Yaounde</option>
 								</select>
