@@ -1,6 +1,6 @@
 
 
-Automatisé via des scripts d'intégration continue pour déployer les mises à jour sur le serveur de production et test d’interface(tel que selenium ou robot framework) ou 
+Automated via continuous integration scripts to deploy updates to the production server and interface testing (such as selenium or robot framework) or 
 
 
 
