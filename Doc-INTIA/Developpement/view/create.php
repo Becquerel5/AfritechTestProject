@@ -12,6 +12,23 @@ include "config.php";
 
 		//write sql query
 
+    // Validate email format
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      // Invalid email format, display an error message
+      echo '<script>alert("Invalid email format."); history.go(-1);</script>';
+      exit; // Stop further execution
+  }
+
+  // Check if the email already exists in the database
+  $checkQuery = "SELECT * FROM `clients` WHERE `email` = '$email'";
+  $checkResult = $conn->query($checkQuery);
+
+  if ($checkResult->num_rows > 0) {
+      // Email already exists, display a message
+      echo '<script>alert("Email already exists."); history.go(-1);</script>';
+      exit; // Stop further execution
+  }
+
 		$sql = "INSERT INTO `users`(`firstname`, `lastname`, `email`, `password`, `gender`) VALUES ('$first_name','$last_name','$email','$password','$gender')";
 
 		// execute the query
