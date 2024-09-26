@@ -38,8 +38,8 @@ $result = mysqli_query($conn, $query);
 					<th>name</th>
 					<th>dob</th>
 					<th>phone</th>
-					<th>assurances</th>
-					<th>agency</th>
+					<th>assurances Type</th>
+					<th>agency Location</th>
 					<th>Action</th>
 				</tr>
 			</thead>
